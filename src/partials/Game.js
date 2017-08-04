@@ -39,7 +39,7 @@ export default class Game {
 			KEYS.down
 		);
 		this.Ball = new Ball(
-			'8',
+			8,
 			this.width,
 			this.height
 		);
@@ -59,5 +59,6 @@ export default class Game {
 		this.player1.render(svg);
 		this.player2.render(svg);
 		this.Ball.render(svg);
+		// this.wallCollision(svg);
 	}
 }

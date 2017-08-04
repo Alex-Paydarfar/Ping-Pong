@@ -7,23 +7,22 @@ export default class Board {
   }
 
 
-
-
-
   render(svg) {
     let rect = document.createElementNS(SVG_NS, 'rect');
     rect.setAttributeNS(null, 'width', this.width);
     rect.setAttributeNS(null, 'height', this.height);
-    rect.setAttributeNS(null, 'fill', 'black');
+    rect.setAttributeNS(null, 'fill', 'beige');
     svg.appendChild(rect);
     let line = document.createElementNS(SVG_NS, 'line');
     line.setAttributeNS(null, 'x1', this.width / 2);
     line.setAttributeNS(null, 'x2', this.width / 2);
     line.setAttributeNS(null, 'y1', 0);
     line.setAttributeNS(null, 'y2', this.height);
-    line.setAttributeNS(null, 'stroke', 'white');
+    line.setAttributeNS(null, 'stroke', 'orange');
     line.setAttributeNS(null, 'stroke-width', 5);
     line.setAttributeNS(null, 'stroke-dasharray', '6, 4');
+    // circle.setAttributeNS(null, 'cx', this.Width);
+    // circle.setAttributeNS(null)
     svg.appendChild(line);
   }
 }
