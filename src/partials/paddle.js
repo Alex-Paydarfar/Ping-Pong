@@ -38,7 +38,6 @@ export default class Paddle {
     this.y = Math.max(0, this.y - this.speed)
     // this.y = this.y - this.speed;
 
-
   }
 
   down() {
