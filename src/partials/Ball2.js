@@ -1,6 +1,6 @@
 import { SVG_NS } from '../settings';
 
-export default class Ball {
+export default class Ball2 {
   constructor(radius, boardWidth, boardHeight) {
     this.radius = radius;
     this.boardWidth = boardWidth;
@@ -21,8 +21,8 @@ export default class Ball {
     const circle = document.createElementNS(SVG_NS, 'circle');
     circle.setAttributeNS(null, 'cx', this.x);
     circle.setAttributeNS(null, 'cy', this.y);
-    circle.setAttributeNS(null, 'fill', 'blue');
-    circle.setAttributeNS(null, 'r', 8);
+    circle.setAttributeNS(null, 'fill', 'green');
+    circle.setAttributeNS(null, 'r', 20);
     svg.appendChild(circle);
   }
   reset() {
