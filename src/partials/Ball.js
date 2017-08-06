@@ -14,6 +14,7 @@ export default class Ball {
     this.y += this.vy;
     this.wallCollision(player1,player2);
     this.paddleCollision(player1, player2);
+    
     //detect score
     //if the right wall was touched increment player 1 score
     //else the left wall was touched increment player 2 score
