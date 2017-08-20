@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "description": "An SVG Pong game.",
   "license": "ISC",
-  "author": "Mandi Wise <mandi@redacademy.com>",
+  "author": "Alex Paydarfar",
   "main": "build/bundle.js",
   "scripts": {
     "start": "webpack-dev-server",
     "build": "webpack -p"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
     "babel-loader": "^7.0.0",
-    "babel-preset-env": "^1.4.0",
+    "babel-preset-env": "^1.6.0",
     "css-loader": "0.23.1",
     "eslint": "^3.11.1",
     "eslint-loader": "1.4.1",

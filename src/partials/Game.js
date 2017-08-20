@@ -77,16 +77,13 @@ this.Ball2 = new Ball2(
 		svg.setAttributeNS(null, 'viewBox', `0 0 ${this.width} ${this.height}`);
 		this.gameElement.appendChild(svg);
 		this.board.render(svg);
-		// this.paddle.render(svg);
 		this.player1.render(svg);
 		this.player2.render(svg);
 		this.Ball.render(svg, this.player1, this.player2);
 		this.Ball.render(svg, this.player1, this.player2);
 		this.score1.render(svg, this.player1.score);
 		this.score2.render(svg, this.player2.score);
-		// this.paddle2.render(svg, this.player1, this.player2);
 		this.Ball2.render(svg, this.player1, this.player2);
-		// this.score.render(svg, this.player1, this.player2);
-		// this.wallCollision(svg);
+		
 	}
 }
