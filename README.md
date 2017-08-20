@@ -29,6 +29,12 @@ A basic pong game using SVGs.
 * ▲ : up
 * ▼: down
 
+## Learning
+* Better understanding of es6 classes and constructors
+* Working with svgs and their applications
+* Better understanding of import and export in javascript
+* Understanding javascript partials and how they relate to each other
+
 ## Additional
 * Additional Ball added to make the game more challenging for both players.
 * Player prompted to choose which side of the game board to start the game.
